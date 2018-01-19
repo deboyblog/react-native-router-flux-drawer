@@ -23,7 +23,7 @@ export default class App extends Component<{}> {
                     {/*<Scene key="Home" component={Home} title="首页"/>*/}
                 {/*</Drawer>*/}
 
-                {/*隐藏Drawer组件以及子视图的顶部导航栏 使用Actions.openDrawer() ~.closeDrawer()控制*/}
+                {/*隐藏Drawer组件以及子视图的顶部导航栏 使用Actions.drawerOpen() ~.drawerClose()控制*/}
                 <Drawer key={'Drawer'} hideNavBar={true} contentComponent={DrawerComp} drawerWidth={200} drawerPosition={'right'}>
                     <Scene key="Home" hideNavBar={true} component={Home} title="首页"/>
                 </Drawer>
